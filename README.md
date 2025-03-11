@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aplicación de Diccionario
 
-## Getting Started
+Este es un proyecto de [Next.js](https://nextjs.org) creado con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## Descripción
+
+Esta aplicación es un diccionario interactivo que permite buscar definiciones de palabras. Cuenta con las siguientes características:
+
+- Búsqueda de definiciones de palabras
+- Historial de búsquedas
+- Selector de fuentes (serif, sans-serif, monospace)
+- Cambio entre tema claro y oscuro
+
+## Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- [Node.js](https://nodejs.org/) (versión 18 o superior)
+- npm, yarn, pnpm o bun como gestor de paquetes
+
+## Instalación
+
+1. Clona este repositorio o descarga los archivos del proyecto
+
+2. Navega hasta la carpeta del proyecto:
+
+```bash
+cd dictionary
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+# o
+yarn install
+# o
+pnpm install
+# o
+bun install
+```
+
+## Ejecución del proyecto
+
+Para iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes comenzar a editar la página modificando `src/app/page.tsx`. La página se actualiza automáticamente cuando editas el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologías utilizadas
 
-## Learn More
+- [Next.js 15](https://nextjs.org/) - Framework de React
+- [React 19](https://react.dev/) - Biblioteca para interfaces de usuario
+- [Redux Toolkit](https://redux-toolkit.js.org/) - Gestión de estado
+- [Tailwind CSS 4](https://tailwindcss.com/) - Framework CSS
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado de JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+## Construcción para producción
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para construir la aplicación para producción:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+# o
+yarn build
+# o
+pnpm build
+# o
+bun build
+```
 
-## Deploy on Vercel
+Para iniciar la versión de producción:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm start
+# o
+yarn start
+# o
+pnpm start
+# o
+bun start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Despliegue en Vercel
+
+La forma más sencilla de desplegar tu aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
+
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
